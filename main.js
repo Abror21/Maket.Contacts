@@ -19,4 +19,5 @@ menu_wrapper.addEventListener('click', function(){
 close_icon.addEventListener('click', function(){
     menu.classList.toggle('active');
     menu_wrapper.style.display = 'none';
+    body.style.overflow = 'visible';
 })
